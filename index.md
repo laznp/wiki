@@ -5,10 +5,10 @@ I hope this wiki will help you a lot.
 *Believe in me who believes in you*. 
 > "No one will ever believe you if you never believe in yourself."
 
-- [Install and Configure LEMP on Ubuntu](https://wiki.laznp.id/Install_and_Configure_LEMP)
-- [Install and Run Ansible Playbook on Ubuntu](https://wiki.laznp.id/Install_Ansible_and_Run_Playbook_on_Ubuntu)
-- [Install Docker on Ubuntu](https://wiki.laznp.id/Install_Docker_on_Ubuntu)
-- [Install Jenkins on Ubuntu](https://wiki.laznp.id/Install_Jenkins_on_Ubuntu)
-- [Mikrotik Solution for Dynamic Public IP](https://wiki.laznp.id/Mikrotik_Solution_for_Dynamic_Public_IP)
-- [Deploy Static Website With Docker](https://wiki.laznp.id/Deploy_Static_Webpage_With_Docker)
-- [Create CLI Tools with Python Click](https://wiki.laznp.id/Create_CLI_Tools_with_Python_Click)
+- [Install and Configure LEMP on Ubuntu](install-lemp-ubuntu.md)
+- [Install and Run Ansible Playbook on Ubuntu](install-and-run-ansible-playbook-ubuntu.md)
+- [Install Docker on Ubuntu](install-docker-ubuntu.md)
+- [Mikrotik Solution for Dynamic Public IP](mikrotik-solution-dynamic-public-ip.md)
+- [Deploy Static Website With Docker](deploy-static-website-with-docker.md)
+- [Create CLI Tools with Python Click](create-cli-tools-with-python-click.md)
+- [Install Jenkins on Ubuntu](install-jenkins-ubuntu.md)

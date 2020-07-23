@@ -1,3 +1,7 @@
 {
-	"title": "Wiki | Lazuardi N Putra"
+	"title": "Wiki | Lazuardi N Putra",
+	"lineBreaks": "gfm",
+	"additionalFooterText": "Copyright 2020 Lazuardi N Putra | ",
+    "anchorCharacter": "#",
+    "useSideMenu": true,
 }
