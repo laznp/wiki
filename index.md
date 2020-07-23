@@ -1,9 +1,11 @@
 # Hello World!
 
-Install Nginx..
----------
+Install Nginx
+---
 
-haahhaah
+Nginx INstallation
 
-Location
----------
+Install Sql
+---
+
+SQL Installation
