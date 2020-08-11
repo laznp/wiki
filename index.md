@@ -12,3 +12,5 @@ I hope this wiki will help you a lot.
 - [Deploy Static Website With Docker](deploy-static-website-with-docker.md)
 - [Create CLI Tools with Python Click](create-cli-tools-with-python-click.md)
 - [Install Jenkins on Ubuntu](install-jenkins-ubuntu.md)
+- [Publish Local Developement via SSH Tunnel](publish-local-development.md)
+

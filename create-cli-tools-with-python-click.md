@@ -8,7 +8,7 @@ Prerequisites
 
 Setup Directory and Virtual Environment
 ---
-```sh
+```bash
 $ pip3 install virtualenv
 $ mkdir ~/learning
 $ cd ~/learning
@@ -25,7 +25,7 @@ So here we will create 2 functions :
 - For Check Port on Host
 
 Open `<yourname>.py` with text editor and paste the code
-```py
+```python
 import requests as curl
 import socket
 import click
@@ -63,7 +63,7 @@ As you can see, there is 3 function. The `main` function is used for `add` more 
 The `myip` function is used to get the Public IP.
 and `knock` is function that we will use for check port on any host.
 Okay, now save it and open the `setup.py` then paste this code
-```py
+```python
 from setuptools import setup
 
  # Change all 'laznp' to yourname
@@ -86,7 +86,7 @@ Then save it.
 Build and install the tools
 ---
 Now you already have 2 files(`yourname.py` and `setup.py`) and 1 directory (`venv`). Now we can start to build our tools.
-```sh
+```bash
 $ cd ~/learning
 $ source venv/bin/activate
 $ pip3 install --editable . # mind the '.' on the end of line
@@ -95,12 +95,12 @@ $ pip3 install --editable . # mind the '.' on the end of line
 Run it!
 ---
 After you successfully install and build your tools. Just run the help first
-```sh
+```bash
  $ laznp --help
 ```
 
 You can see this following lines
-```sh
+```bash
 Usage: laznp [OPTIONS] COMMAND [ARGS]...
  
 Options:
@@ -112,15 +112,15 @@ Commands:
 ```
 
 Test our first command to get our Public IP
-```sh
+```bash
 $ laznp myip
 ```
 Then test our second command to check the opened port
-```sh
+```bash
 $ laznp knock --host "localhost" --port 7400
 ```
 Is it closed? Then try this command
-```sh
+```bash
 $ laznp knock --host "laznp.id" --port 443
 ```
 

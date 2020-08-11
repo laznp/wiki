@@ -65,7 +65,7 @@ ubuntu ALL=(ALL) NOPASSWD: ALL
 ```
 Save it!
 
-**NOTE! When you do this, every people that use `ubuntu` user for login will able do to everything that `root` user can do without password.**
+**Note: When you do this, every people that use `ubuntu` user for login will able do to everything that `root` user can do without password.**
 
 Install Ansible on Master Node
 ---
