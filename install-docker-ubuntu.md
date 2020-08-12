@@ -50,4 +50,4 @@ For running it without `sudo`, you have to add your user to docker group with th
  $ sudo usermod -aG docker $(whoami)
 ```
 Then restart your computer.
-If you want to explore more about docker, you can read [this tutorial](https://wiki.laznp.id/Deploy_Static_Webpage_With_Docker) to make you practice more about docker.
+##### If you want to explore more about docker, you can read [this tutorial](https://wiki.laznp.id/Deploy_Static_Webpage_With_Docker) to make you practice more about docker.
