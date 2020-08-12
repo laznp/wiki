@@ -109,7 +109,7 @@ Open web browser and head to this following URL
 - http://127.0.0.1:5000/github for Login with Github
 - http://127.0.0.1:5000/google for Login with Google
 
-If you can a JSON formatted data it means you are already success authenticate with Github/Google!
+If you can your profile with JSON formatted it means you are already success authenticate with Github/Google!
 
 ##### You can explore more about Python Flask Dance Library from this [Official Flask Dance Documentation](https://flask-dance.readthedocs.io/en/v1.2.0/index.html)
 
