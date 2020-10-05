@@ -35,7 +35,7 @@ DC Current
  | :-------------: | :-----------: |
  | `IN`            | `D0`          |
  | `VCC`           | `3V`          |
- | `GND`           | `G`           | 
+ | `GND`           | `G`           |
 AC Current
 Cut one of the electrical cable side. Connect to relay `COM` and `NO` on `Relay Module`
 
