@@ -31,11 +31,11 @@ After that you need to install `ESP8266 Library`, you can follow this [link](htt
 Wiring
 ---
 DC Current
-   GPIO Relay Pin | NodeMCU Pin
-   ---------------| ------------:|
-   `IN`           |  `D0`        |
-   `VCC`          | `3V`         |
-   `GND`          | `G`          | 
+ | GPIO Relay Pin  | NodeMCU Pin   |
+ | :-------------: | :-----------: |
+ | `IN`            | `D0`          |
+ | `VCC`           | `3V`          |
+ | `GND`           | `G`           | 
 AC Current
 Cut one of the electrical cable side. Connect to relay `COM` and `NO` on `Relay Module`
 
