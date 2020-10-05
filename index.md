@@ -14,4 +14,5 @@ I hope this wiki will help you a lot.
 - [Install Jenkins on Ubuntu](install-jenkins-ubuntu.md)
 - [Publish Local Developement via SSH Tunnel](publish-local-development.md)
 - [Simplify OAuth Login with Flask Dance](simplify-oauth-login-with-flask-dance.md)
+- [Home Automation with NodeMCU ESP8266](home-automation-with-nodemcu.md)
 
