@@ -32,7 +32,7 @@ Wiring
 ---
 DC Current
 | GPIO Relay Pin | NodeMCU Pin  |
-| :------------: | :-----------:|
+|:------------:|:-----------:|
 | `IN`           |  `D0`        |
 | `VCC`          | `3V`         |
 | `GND`          | `G`          | 
