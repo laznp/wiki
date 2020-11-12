@@ -15,5 +15,5 @@ I hope this wiki will help you a lot.
 - [Publish Local Developement via SSH Tunnel](publish-local-development.md)
 - [Simplify OAuth Login with Flask Dance](simplify-oauth-login-with-flask-dance.md)
 - [Home Automation with NodeMCU ESP8266](home-automation-with-nodemcu.md)
-- [Setup OpenVPN Behind NAT](setup-openvpn.md)
+- [Setup OpenVPN and How to Connect](setup-openvpn.md)
 
