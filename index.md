@@ -16,4 +16,5 @@ I hope this wiki will help you a lot.
 - [Simplify OAuth Login with Flask Dance](simplify-oauth-login-with-flask-dance.md)
 - [Home Automation with NodeMCU ESP8266](home-automation-with-nodemcu.md)
 - [Setup OpenVPN and How to Connect](setup-openvpn.md)
+- [Setup Prometheus and Grafana on Kubernetes Cluster](setup-grafana-prometheus-kubernetes.md)
 
