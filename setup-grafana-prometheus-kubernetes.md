@@ -1,4 +1,4 @@
-Install Prometheus and Grafana on Kubernetes Cluster
+Install Prometheus, Loki and Grafana on Kubernetes Cluster
 ===
 Prerequisites
 ---
@@ -34,6 +34,13 @@ Installing Prometheus Grafana Stack
  $ helm install prometheus prometheus-community/kube-prometheus-stack --version 13.2.1 --namespace monitoring --debug
 ```
 
+Installing Loki Stack
+---
+```sh
+ $ helm repo add loki https://grafana.github.io/loki/charts
+ $ helm install loki loki/loki-stack --set persistence.enabled=true,persistence.type=pvc,persistence.size=10Gi --namespace=monitoring
+```
+
 Get Grafana Password
 ---
 ```sh
@@ -46,6 +53,7 @@ Forward Port to your local
 ```sh
 $ kubectl port-forward svc/prometheus-kube-prometheus-prometheus 9090 # Forward Prometheus Service to your localhost port 9090
 $ kubectl port-forward svc/prometheus-grafana 3000:80 # Forward Grafana Service to your localhost port 3000
+$ kubectl port-forward svc/loki 3100:3100 # Forward Loki to your localhost port 3100
 ```
 
 Accessing Dashboard
