@@ -1,5 +1,5 @@
 # Welcome
-Welcome to you and congratulations to you for found this page.
+Welcome to you and congratulations for you to found this page.
 I hope this wiki will help you a lot.
 
 *Believe in me who believes in you*.
